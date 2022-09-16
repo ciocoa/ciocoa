@@ -5,7 +5,7 @@ import { NextPageWithLayout } from './_app'
 import { getSortedPostsData, PostsData } from '../lib/post'
 import Layout, { siteTitle } from '../components/layout'
 import Date from '../components/date'
-import styles from '../styles/home.module.css'
+import styles from '../styles/main.module.css'
 
 type Props = {
   allPostsData: PostsData[]
